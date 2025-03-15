@@ -6,39 +6,22 @@ const Footer = () => {
   
   const footerSections = [
     {
-      title: "О компании",
+      title: "О программе",
       links: [
-        { label: "О нас", href: "#" },
-        { label: "Команда", href: "#" },
-        { label: "Карьера", href: "#" },
-        { label: "Контакты", href: "#" }
+        { label: "О нас", href: "#" }
       ]
     },
     {
-      title: "Продукты",
+      title: "Контакты",
       links: [
-        { label: "КриптоЗащита Pro", href: "#" },
-        { label: "КриптоЗащита для бизнеса", href: "#" },
-        { label: "Мобильная версия", href: "#" },
-        { label: "Все продукты", href: "#" }
-      ]
-    },
-    {
-      title: "Поддержка",
-      links: [
-        { label: "Справочный центр", href: "#" },
-        { label: "Руководство пользователя", href: "#" },
-        { label: "Видеоуроки", href: "#" },
-        { label: "Сообщить о проблеме", href: "#" }
+        { label: "tehsup-sv@yandex.ru", href: "" }
       ]
     },
     {
       title: "Юридическая информация",
       links: [
         { label: "Условия использования", href: "#" },
-        { label: "Политика конфиденциальности", href: "#" },
-        { label: "Лицензионное соглашение", href: "#" },
-        { label: "Правовая информация", href: "#" }
+        { label: "Политика конфиденциальности", href: "#" }
       ]
     }
   ];
@@ -92,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 text-center text-gray-500 text-sm">
-          <p>© {currentYear} КриптоЗащита. Все права защищены.</p>
+          <p>© {currentYear} ShadowVault . Все права защищены.</p>
         </div>
       </div>
     </footer>

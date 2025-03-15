@@ -29,8 +29,8 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: <LockKeyhole className="text-2xl text-purple-600" />,
-      title: "Мощное шифрование",
-      description: "Используйте современные алгоритмы шифрования AES-256, RSA и другие для надежной защиты файлов."
+      title: "Шифрование",
+      description: "Используйте современные алгоритмы шифрования AES-CBC, RSA и TripleDES."
     },
     {
       icon: <Shield className="text-2xl text-purple-600" />,
@@ -39,18 +39,18 @@ const FeaturesSection = () => {
     },
     {
       icon: <MessageSquare className="text-2xl text-purple-600" />,
-      title: "Защищенные сообщения",
-      description: "Обменивайтесь зашифрованными сообщениями, которые могут прочитать только получатели с ключом."
+      title: "Облачное хранилище",
+      description: "Храните зашифрованные файлы в облаке(до 5 гб)."
     },
     {
       icon: <Key className="text-2xl text-purple-600" />,
-      title: "Управление ключами",
-      description: "Создавайте, храните и управляйте ключами шифрования для максимальной безопасности."
+      title: "Менеджер паролей",
+      description: "Храните пароли у нас в приложение."
     },
     {
       icon: <HardDrive className="text-2xl text-purple-600" />,
-      title: "Шифрование дисков",
-      description: "Защищайте целые диски или разделы для комплексной защиты всех хранящихся данных."
+      title: "Генератор паролей",
+      description: "Генерируйте пароли любой сложности"
     },
     {
       icon: <UserCog className="text-2xl text-purple-600" />,
@@ -64,7 +64,7 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold font-montserrat text-white">
-            Возможности <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-700">КриптоЗащиты</span>
+            Возможности <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-700">ShadowVault</span>
           </h2>
           <p className="mt-4 text-xl text-gray-300 max-w-3xl mx-auto">
             Передовые технологии шифрования для максимальной защиты ваших данных
