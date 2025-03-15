@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Импортируйте изображения
-import slide1 from 'slide1.jpg';
-import slide2 from 'slide2.jpg';
-import slide3 from 'slide3.jpg';
-import slide4 from 'slide4.jpg';
-import slide5 from 'slide5.jpg';
+import slide1 from './client/scr/components/slide1.jpg';
+import slide2 from './client/scr/components/slide2.jpg';
+import slide3 from './client/scr/components/slide3.jpg';
+import slide4 from './client/scr/components/slide4.jpg';
+import slide5 from './client/scr/components/slide5.jpg';
 
 interface SlideProps {
   id: number;
